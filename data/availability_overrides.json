@@ -1,0 +1,30 @@
+{
+  "source": "manual 9-pax status overrides entered by user",
+  "updated_at": "2026-09-10",
+  "notes": [
+    "Use status 9plus, some, none, or unknown.",
+    "This file is intentionally manual-first so the prototype can stay free."
+  ],
+  "checks": [
+    {
+      "origin": "OSL",
+      "destination": "AGP",
+      "airline": "D8",
+      "flight_number": "5021",
+      "date": "2026-10-05",
+      "status": "9plus",
+      "source": "Duffel test-mode sweep, not live inventory",
+      "confidence": "low_real_world"
+    },
+    {
+      "origin": "OSL",
+      "destination": "AGP",
+      "airline": "DY",
+      "date": "2026-11-04",
+      "status": "9plus",
+      "source": "manual 9-pax airline website check",
+      "confidence": "manual",
+      "checked_at": "2026-09-10T17:31:53.453240+00:00"
+    }
+  ]
+}

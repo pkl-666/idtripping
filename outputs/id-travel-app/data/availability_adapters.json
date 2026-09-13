@@ -1,0 +1,146 @@
+{
+  "source": "manual/deep-link availability check strategies",
+  "updated_at": "2026-09-10",
+  "notes": [
+    "Free-first strategy: open official airline booking flow and manually search 9 adults.",
+    "Do not automate login-only portals or scrape airline booking flows without permission.",
+    "Deep links are intentionally conservative; most airline sites use dynamic booking widgets."
+  ],
+  "adapters": {
+    "DY": {
+      "name": "Norwegian",
+      "mode": "manual_link",
+      "priority": "critical",
+      "supports_9_pax": "likely",
+      "confidence": "medium",
+      "url": "https://www.norwegian.com/us/booking/",
+      "instructions": "Open Norwegian booking, choose one-way if checking one leg, enter route/date, set 9 adults, and see whether the flight can be selected/priced."
+    },
+    "D8": {
+      "name": "Norwegian Air Sweden",
+      "mode": "manual_link",
+      "priority": "critical",
+      "supports_9_pax": "likely",
+      "confidence": "medium",
+      "url": "https://www.norwegian.com/us/booking/",
+      "instructions": "Use Norwegian booking for D8/Norwegian Air Sweden marketed flights. Search 9 adults and record whether the specific flight appears."
+    },
+    "WF": {
+      "name": "Wideroe",
+      "mode": "manual_link",
+      "priority": "critical",
+      "supports_9_pax": "unknown",
+      "confidence": "medium",
+      "url": "https://www.wideroe.no/en",
+      "instructions": "Open Wideroe booking, enter route/date, set adults as high as supported up to 9, and record the result. If the site caps below 9, mark 'some' and note the cap."
+    },
+    "EK": {
+      "name": "Emirates",
+      "mode": "manual_link",
+      "priority": "high",
+      "supports_9_pax": "yes",
+      "confidence": "medium",
+      "url": "https://www.emirates.com/us/english/book/",
+      "instructions": "Emirates booking supports up to 9 passengers. Search 9 adults for the leg/date and record whether the flight can be selected/priced."
+    },
+    "QR": {
+      "name": "Qatar Airways",
+      "mode": "manual_link",
+      "priority": "high",
+      "supports_9_pax": "unknown",
+      "confidence": "medium",
+      "url": "https://www.qatarairways.com/en/homepage.html",
+      "instructions": "Open Qatar Airways booking, enter route/date, set 9 adults if supported, and record whether the flight can be selected/priced."
+    },
+    "AY": {
+      "name": "Finnair",
+      "mode": "manual_link",
+      "priority": "high",
+      "supports_9_pax": "unknown",
+      "confidence": "low",
+      "url": "https://www.finnair.com/",
+      "instructions": "Open airline booking, search the specific leg/date for 9 adults if supported, and record the result."
+    },
+    "LH": {
+      "name": "Lufthansa",
+      "mode": "manual_link",
+      "priority": "high",
+      "supports_9_pax": "unknown",
+      "confidence": "low",
+      "url": "https://www.lufthansa.com/",
+      "instructions": "Open airline booking, search the specific leg/date for 9 adults if supported, and record the result."
+    },
+    "BA": {
+      "name": "British Airways",
+      "mode": "manual_link",
+      "priority": "high",
+      "supports_9_pax": "unknown",
+      "confidence": "low",
+      "url": "https://www.britishairways.com/",
+      "instructions": "Open airline booking, search the specific leg/date for 9 adults if supported, and record the result."
+    },
+    "AF": {
+      "name": "Air France",
+      "mode": "manual_link",
+      "priority": "high",
+      "supports_9_pax": "unknown",
+      "confidence": "low",
+      "url": "https://wwws.airfrance.no/",
+      "instructions": "Open airline booking, search the specific leg/date for 9 adults if supported, and record the result."
+    },
+    "IB": {
+      "name": "Iberia",
+      "mode": "manual_link",
+      "priority": "medium",
+      "supports_9_pax": "unknown",
+      "confidence": "low",
+      "url": "https://www.iberia.com/",
+      "instructions": "Open airline booking, search the specific leg/date for 9 adults if supported, and record the result."
+    },
+    "TP": {
+      "name": "TAP Air Portugal",
+      "mode": "manual_link",
+      "priority": "medium",
+      "supports_9_pax": "unknown",
+      "confidence": "low",
+      "url": "https://www.flytap.com/",
+      "instructions": "Open airline booking, search the specific leg/date for 9 adults if supported, and record the result."
+    },
+    "A3": {
+      "name": "Aegean Airlines",
+      "mode": "manual_link",
+      "priority": "medium",
+      "supports_9_pax": "unknown",
+      "confidence": "low",
+      "url": "https://en.aegeanair.com/",
+      "instructions": "Open airline booking, search the specific leg/date for 9 adults if supported, and record the result."
+    },
+    "PC": {
+      "name": "Pegasus",
+      "mode": "manual_link",
+      "priority": "medium",
+      "supports_9_pax": "unknown",
+      "confidence": "low",
+      "url": "https://www.flypgs.com/en",
+      "instructions": "Open airline booking, search the specific leg/date for 9 adults if supported, and record the result."
+    },
+    "XQ": {
+      "name": "SunExpress",
+      "mode": "manual_link",
+      "priority": "medium",
+      "supports_9_pax": "unknown",
+      "confidence": "low",
+      "url": "https://www.sunexpress.com/",
+      "instructions": "Open airline booking, search the specific leg/date for 9 adults if supported, and record the result."
+    },
+    "default": {
+      "name": "Airline website",
+      "mode": "manual_search",
+      "priority": "unknown",
+      "supports_9_pax": "unknown",
+      "confidence": "low",
+      "url": "",
+      "instructions": "Search the airline's official booking site manually for the specific leg/date. Set 9 adults if supported; otherwise record the highest supported quantity in notes."
+    }
+  }
+}

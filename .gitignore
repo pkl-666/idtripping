@@ -1,0 +1,9 @@
+.env
+.env.*
+.DS_Store
+duffel_response.json
+duffel_response_*.json
+seat_maps_*.json
+__pycache__/
+*.pyc
+work/

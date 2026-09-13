@@ -1,0 +1,3197 @@
+{
+  "source": "initial curated destination regions for the ID travel tips prototype",
+  "updated_at": "2026-09-11",
+  "destinations": [
+    {
+      "iata": "AGP",
+      "city": "Malaga",
+      "country": "Spain",
+      "regions": [
+        "europe",
+        "warm_europe",
+        "beach"
+      ]
+    },
+    {
+      "iata": "ALC",
+      "city": "Alicante",
+      "country": "Spain",
+      "regions": [
+        "europe",
+        "warm_europe",
+        "beach"
+      ]
+    },
+    {
+      "iata": "BCN",
+      "city": "Barcelona",
+      "country": "Spain",
+      "regions": [
+        "europe",
+        "warm_europe",
+        "city",
+        "beach"
+      ]
+    },
+    {
+      "iata": "MAD",
+      "city": "Madrid",
+      "country": "Spain",
+      "regions": [
+        "europe",
+        "warm_europe",
+        "city"
+      ]
+    },
+    {
+      "iata": "PMI",
+      "city": "Palma de Mallorca",
+      "country": "Spain",
+      "regions": [
+        "europe",
+        "warm_europe",
+        "beach"
+      ]
+    },
+    {
+      "iata": "LPA",
+      "city": "Gran Canaria",
+      "country": "Spain",
+      "regions": [
+        "europe",
+        "warm_europe",
+        "beach"
+      ]
+    },
+    {
+      "iata": "TFS",
+      "city": "Tenerife South",
+      "country": "Spain",
+      "regions": [
+        "europe",
+        "warm_europe",
+        "beach"
+      ]
+    },
+    {
+      "iata": "FAO",
+      "city": "Faro",
+      "country": "Portugal",
+      "regions": [
+        "europe",
+        "warm_europe",
+        "beach"
+      ]
+    },
+    {
+      "iata": "LIS",
+      "city": "Lisbon",
+      "country": "Portugal",
+      "regions": [
+        "europe",
+        "warm_europe",
+        "city"
+      ]
+    },
+    {
+      "iata": "FCO",
+      "city": "Rome",
+      "country": "Italy",
+      "regions": [
+        "europe",
+        "warm_europe",
+        "city"
+      ]
+    },
+    {
+      "iata": "NAP",
+      "city": "Naples",
+      "country": "Italy",
+      "regions": [
+        "europe",
+        "warm_europe",
+        "city"
+      ]
+    },
+    {
+      "iata": "ATH",
+      "city": "Athens",
+      "country": "Greece",
+      "regions": [
+        "europe",
+        "warm_europe",
+        "city"
+      ]
+    },
+    {
+      "iata": "HER",
+      "city": "Heraklion",
+      "country": "Greece",
+      "regions": [
+        "europe",
+        "warm_europe",
+        "beach"
+      ]
+    },
+    {
+      "iata": "LCA",
+      "city": "Larnaca",
+      "country": "Cyprus",
+      "regions": [
+        "europe",
+        "warm_europe",
+        "beach"
+      ]
+    },
+    {
+      "iata": "IST",
+      "city": "Istanbul",
+      "country": "Turkey",
+      "regions": [
+        "europe",
+        "warm_europe",
+        "city"
+      ]
+    },
+    {
+      "iata": "AYT",
+      "city": "Antalya",
+      "country": "Turkey",
+      "regions": [
+        "europe",
+        "warm_europe",
+        "beach"
+      ]
+    },
+    {
+      "iata": "NCE",
+      "city": "Nice",
+      "country": "France",
+      "regions": [
+        "europe",
+        "warm_europe",
+        "city",
+        "beach"
+      ]
+    },
+    {
+      "iata": "MRS",
+      "city": "Marseille",
+      "country": "France",
+      "regions": [
+        "europe",
+        "warm_europe",
+        "city"
+      ]
+    },
+    {
+      "iata": "MLA",
+      "city": "Malta",
+      "country": "Malta",
+      "regions": [
+        "europe",
+        "warm_europe",
+        "beach"
+      ]
+    },
+    {
+      "iata": "MLE",
+      "city": "Malé",
+      "country": "Maldives",
+      "regions": [
+        "asia",
+        "indian_ocean",
+        "beach",
+        "island",
+        "warm"
+      ]
+    },
+    {
+      "iata": "AUH",
+      "city": "Abu Dhabi",
+      "country": "United Arab Emirates",
+      "regions": [
+        "asia",
+        "middle_east",
+        "city",
+        "warm"
+      ]
+    },
+    {
+      "iata": "BKK",
+      "city": "Bangkok",
+      "country": "Thailand",
+      "regions": [
+        "asia",
+        "city",
+        "warm"
+      ]
+    },
+    {
+      "iata": "BOM",
+      "city": "Mumbai",
+      "country": "India",
+      "regions": [
+        "asia",
+        "city",
+        "warm"
+      ]
+    },
+    {
+      "iata": "BOS",
+      "city": "Boston",
+      "country": "United States",
+      "regions": [
+        "north_america",
+        "city"
+      ]
+    },
+    {
+      "iata": "BRU",
+      "city": "Brussels",
+      "country": "Belgium",
+      "regions": [
+        "europe",
+        "city"
+      ]
+    },
+    {
+      "iata": "DEL",
+      "city": "Delhi",
+      "country": "India",
+      "regions": [
+        "asia",
+        "city",
+        "warm"
+      ]
+    },
+    {
+      "iata": "DUS",
+      "city": "Düsseldorf",
+      "country": "Germany",
+      "regions": [
+        "europe",
+        "city"
+      ]
+    },
+    {
+      "iata": "EWR",
+      "city": "Newark / New York",
+      "country": "United States",
+      "regions": [
+        "north_america",
+        "city"
+      ]
+    },
+    {
+      "iata": "HAM",
+      "city": "Hamburg",
+      "country": "Germany",
+      "regions": [
+        "europe",
+        "city"
+      ]
+    },
+    {
+      "iata": "IAD",
+      "city": "Washington Dulles",
+      "country": "United States",
+      "regions": [
+        "north_america",
+        "city"
+      ]
+    },
+    {
+      "iata": "ICN",
+      "city": "Seoul",
+      "country": "South Korea",
+      "regions": [
+        "asia",
+        "city"
+      ]
+    },
+    {
+      "iata": "JFK",
+      "city": "New York JFK",
+      "country": "United States",
+      "regions": [
+        "north_america",
+        "city"
+      ]
+    },
+    {
+      "iata": "KEF",
+      "city": "Reykjavik Keflavik",
+      "country": "Iceland",
+      "regions": [
+        "europe",
+        "nordic",
+        "island"
+      ]
+    },
+    {
+      "iata": "LAX",
+      "city": "Los Angeles",
+      "country": "United States",
+      "regions": [
+        "north_america",
+        "city",
+        "warm"
+      ]
+    },
+    {
+      "iata": "MIA",
+      "city": "Miami",
+      "country": "United States",
+      "regions": [
+        "north_america",
+        "beach",
+        "warm"
+      ]
+    },
+    {
+      "iata": "ORD",
+      "city": "Chicago",
+      "country": "United States",
+      "regions": [
+        "north_america",
+        "city"
+      ]
+    },
+    {
+      "iata": "SEA",
+      "city": "Seattle",
+      "country": "United States",
+      "regions": [
+        "north_america",
+        "city"
+      ]
+    },
+    {
+      "iata": "SFO",
+      "city": "San Francisco",
+      "country": "United States",
+      "regions": [
+        "north_america",
+        "city"
+      ]
+    },
+    {
+      "iata": "VIE",
+      "city": "Vienna",
+      "country": "Austria",
+      "regions": [
+        "europe",
+        "city"
+      ]
+    },
+    {
+      "iata": "WAW",
+      "city": "Warsaw",
+      "country": "Poland",
+      "regions": [
+        "europe",
+        "city"
+      ]
+    },
+    {
+      "iata": "YUL",
+      "city": "Montreal",
+      "country": "Canada",
+      "regions": [
+        "north_america",
+        "city"
+      ]
+    },
+    {
+      "iata": "YYZ",
+      "city": "Toronto",
+      "country": "Canada",
+      "regions": [
+        "north_america",
+        "city"
+      ]
+    },
+    {
+      "iata": "ZRH",
+      "city": "Zurich",
+      "country": "Switzerland",
+      "regions": [
+        "europe",
+        "city"
+      ]
+    },
+    {
+      "iata": "AES",
+      "city": "Ålesund",
+      "country": "Norway",
+      "regions": [
+        "europe",
+        "nordic",
+        "city"
+      ]
+    },
+    {
+      "iata": "BOO",
+      "city": "Bodø",
+      "country": "Norway",
+      "regions": [
+        "europe",
+        "nordic",
+        "city"
+      ]
+    },
+    {
+      "iata": "SVG",
+      "city": "Stavanger",
+      "country": "Norway",
+      "regions": [
+        "europe",
+        "nordic",
+        "city"
+      ]
+    },
+    {
+      "iata": "TRD",
+      "city": "Trondheim",
+      "country": "Norway",
+      "regions": [
+        "europe",
+        "nordic",
+        "city"
+      ]
+    },
+    {
+      "iata": "TOS",
+      "city": "Tromsø",
+      "country": "Norway",
+      "regions": [
+        "europe",
+        "nordic",
+        "city"
+      ]
+    },
+    {
+      "iata": "ADL",
+      "city": "Adelaide",
+      "country": "Australia",
+      "regions": [
+        "oceania",
+        "australia",
+        "city",
+        "warm"
+      ]
+    },
+    {
+      "iata": "AKL",
+      "city": "Auckland",
+      "country": "New Zealand",
+      "regions": [
+        "oceania",
+        "city",
+        "island"
+      ]
+    },
+    {
+      "iata": "ANU",
+      "city": "Antigua",
+      "country": "Antigua and Barbuda",
+      "regions": [
+        "caribbean",
+        "beach",
+        "island",
+        "warm"
+      ]
+    },
+    {
+      "iata": "AUA",
+      "city": "Aruba",
+      "country": "Aruba",
+      "regions": [
+        "caribbean",
+        "beach",
+        "island",
+        "warm"
+      ]
+    },
+    {
+      "iata": "BGI",
+      "city": "Bridgetown",
+      "country": "Barbados",
+      "regions": [
+        "caribbean",
+        "beach",
+        "island",
+        "warm"
+      ]
+    },
+    {
+      "iata": "BNE",
+      "city": "Brisbane",
+      "country": "Australia",
+      "regions": [
+        "oceania",
+        "australia",
+        "city",
+        "warm"
+      ]
+    },
+    {
+      "iata": "CUN",
+      "city": "Cancun",
+      "country": "Mexico",
+      "regions": [
+        "caribbean",
+        "beach",
+        "warm"
+      ]
+    },
+    {
+      "iata": "CMB",
+      "city": "Colombo",
+      "country": "Sri Lanka",
+      "regions": [
+        "asia",
+        "indian_ocean",
+        "beach",
+        "island",
+        "warm"
+      ]
+    },
+    {
+      "iata": "CUR",
+      "city": "Curaçao",
+      "country": "Curaçao",
+      "regions": [
+        "caribbean",
+        "beach",
+        "island",
+        "warm"
+      ]
+    },
+    {
+      "iata": "HND",
+      "city": "Tokyo Haneda",
+      "country": "Japan",
+      "regions": [
+        "asia",
+        "japan",
+        "city"
+      ]
+    },
+    {
+      "iata": "HKT",
+      "city": "Phuket",
+      "country": "Thailand",
+      "regions": [
+        "asia",
+        "beach",
+        "island",
+        "warm"
+      ]
+    },
+    {
+      "iata": "KIX",
+      "city": "Osaka Kansai",
+      "country": "Japan",
+      "regions": [
+        "asia",
+        "japan",
+        "city"
+      ]
+    },
+    {
+      "iata": "KUL",
+      "city": "Kuala Lumpur",
+      "country": "Malaysia",
+      "regions": [
+        "asia",
+        "city",
+        "warm"
+      ]
+    },
+    {
+      "iata": "MBJ",
+      "city": "Montego Bay",
+      "country": "Jamaica",
+      "regions": [
+        "caribbean",
+        "beach",
+        "island",
+        "warm"
+      ]
+    },
+    {
+      "iata": "MCT",
+      "city": "Muscat",
+      "country": "Oman",
+      "regions": [
+        "middle_east",
+        "city",
+        "warm"
+      ]
+    },
+    {
+      "iata": "MEL",
+      "city": "Melbourne",
+      "country": "Australia",
+      "regions": [
+        "oceania",
+        "australia",
+        "city"
+      ]
+    },
+    {
+      "iata": "MNL",
+      "city": "Manila",
+      "country": "Philippines",
+      "regions": [
+        "asia",
+        "city",
+        "warm",
+        "island"
+      ]
+    },
+    {
+      "iata": "NAN",
+      "city": "Nadi",
+      "country": "Fiji",
+      "regions": [
+        "oceania",
+        "beach",
+        "island",
+        "warm"
+      ]
+    },
+    {
+      "iata": "NAS",
+      "city": "Nassau",
+      "country": "Bahamas",
+      "regions": [
+        "caribbean",
+        "beach",
+        "island",
+        "warm"
+      ]
+    },
+    {
+      "iata": "NRT",
+      "city": "Tokyo Narita",
+      "country": "Japan",
+      "regions": [
+        "asia",
+        "japan",
+        "city"
+      ]
+    },
+    {
+      "iata": "PER",
+      "city": "Perth",
+      "country": "Australia",
+      "regions": [
+        "oceania",
+        "australia",
+        "city",
+        "warm"
+      ]
+    },
+    {
+      "iata": "PUJ",
+      "city": "Punta Cana",
+      "country": "Dominican Republic",
+      "regions": [
+        "caribbean",
+        "beach",
+        "warm"
+      ]
+    },
+    {
+      "iata": "RUH",
+      "city": "Riyadh",
+      "country": "Saudi Arabia",
+      "regions": [
+        "middle_east",
+        "city",
+        "warm"
+      ]
+    },
+    {
+      "iata": "SEZ",
+      "city": "Mahé",
+      "country": "Seychelles",
+      "regions": [
+        "indian_ocean",
+        "beach",
+        "island",
+        "warm"
+      ]
+    },
+    {
+      "iata": "SIN",
+      "city": "Singapore",
+      "country": "Singapore",
+      "regions": [
+        "asia",
+        "city",
+        "warm"
+      ]
+    },
+    {
+      "iata": "SJU",
+      "city": "San Juan",
+      "country": "Puerto Rico",
+      "regions": [
+        "caribbean",
+        "beach",
+        "island",
+        "warm"
+      ]
+    },
+    {
+      "iata": "SYD",
+      "city": "Sydney",
+      "country": "Australia",
+      "regions": [
+        "oceania",
+        "australia",
+        "city",
+        "beach"
+      ]
+    },
+    {
+      "iata": "UVF",
+      "city": "St Lucia Hewanorra",
+      "country": "Saint Lucia",
+      "regions": [
+        "caribbean",
+        "beach",
+        "island",
+        "warm"
+      ]
+    },
+    {
+      "iata": "ASU",
+      "city": "Asunción",
+      "country": "Paraguay",
+      "regions": [
+        "south_america",
+        "latin_america",
+        "city",
+        "warm"
+      ]
+    },
+    {
+      "iata": "BEL",
+      "city": "Belém",
+      "country": "Brazil",
+      "regions": [
+        "south_america",
+        "latin_america",
+        "city",
+        "warm"
+      ]
+    },
+    {
+      "iata": "BOG",
+      "city": "Bogotá",
+      "country": "Colombia",
+      "regions": [
+        "south_america",
+        "latin_america",
+        "city"
+      ]
+    },
+    {
+      "iata": "BSB",
+      "city": "Brasília",
+      "country": "Brazil",
+      "regions": [
+        "south_america",
+        "latin_america",
+        "city",
+        "warm"
+      ]
+    },
+    {
+      "iata": "CNF",
+      "city": "Belo Horizonte",
+      "country": "Brazil",
+      "regions": [
+        "south_america",
+        "latin_america",
+        "city",
+        "warm"
+      ]
+    },
+    {
+      "iata": "COR",
+      "city": "Córdoba",
+      "country": "Argentina",
+      "regions": [
+        "south_america",
+        "latin_america",
+        "city"
+      ]
+    },
+    {
+      "iata": "CTG",
+      "city": "Cartagena",
+      "country": "Colombia",
+      "regions": [
+        "south_america",
+        "latin_america",
+        "caribbean",
+        "beach",
+        "warm"
+      ]
+    },
+    {
+      "iata": "CWB",
+      "city": "Curitiba",
+      "country": "Brazil",
+      "regions": [
+        "south_america",
+        "latin_america",
+        "city"
+      ]
+    },
+    {
+      "iata": "EZE",
+      "city": "Buenos Aires Ezeiza",
+      "country": "Argentina",
+      "regions": [
+        "south_america",
+        "latin_america",
+        "city"
+      ]
+    },
+    {
+      "iata": "FOR",
+      "city": "Fortaleza",
+      "country": "Brazil",
+      "regions": [
+        "south_america",
+        "latin_america",
+        "beach",
+        "warm"
+      ]
+    },
+    {
+      "iata": "GIG",
+      "city": "Rio de Janeiro",
+      "country": "Brazil",
+      "regions": [
+        "south_america",
+        "latin_america",
+        "city",
+        "beach",
+        "warm"
+      ]
+    },
+    {
+      "iata": "GRU",
+      "city": "São Paulo Guarulhos",
+      "country": "Brazil",
+      "regions": [
+        "south_america",
+        "latin_america",
+        "city"
+      ]
+    },
+    {
+      "iata": "GYE",
+      "city": "Guayaquil",
+      "country": "Ecuador",
+      "regions": [
+        "south_america",
+        "latin_america",
+        "city",
+        "warm"
+      ]
+    },
+    {
+      "iata": "LIM",
+      "city": "Lima",
+      "country": "Peru",
+      "regions": [
+        "south_america",
+        "latin_america",
+        "city"
+      ]
+    },
+    {
+      "iata": "MAO",
+      "city": "Manaus",
+      "country": "Brazil",
+      "regions": [
+        "south_america",
+        "latin_america",
+        "city",
+        "warm"
+      ]
+    },
+    {
+      "iata": "MDE",
+      "city": "Medellín",
+      "country": "Colombia",
+      "regions": [
+        "south_america",
+        "latin_america",
+        "city",
+        "warm"
+      ]
+    },
+    {
+      "iata": "MVD",
+      "city": "Montevideo",
+      "country": "Uruguay",
+      "regions": [
+        "south_america",
+        "latin_america",
+        "city"
+      ]
+    },
+    {
+      "iata": "POA",
+      "city": "Porto Alegre",
+      "country": "Brazil",
+      "regions": [
+        "south_america",
+        "latin_america",
+        "city"
+      ]
+    },
+    {
+      "iata": "REC",
+      "city": "Recife",
+      "country": "Brazil",
+      "regions": [
+        "south_america",
+        "latin_america",
+        "beach",
+        "warm"
+      ]
+    },
+    {
+      "iata": "SCL",
+      "city": "Santiago de Chile",
+      "country": "Chile",
+      "regions": [
+        "south_america",
+        "latin_america",
+        "city"
+      ]
+    },
+    {
+      "iata": "SSA",
+      "city": "Salvador",
+      "country": "Brazil",
+      "regions": [
+        "south_america",
+        "latin_america",
+        "beach",
+        "warm"
+      ]
+    },
+    {
+      "iata": "UIO",
+      "city": "Quito",
+      "country": "Ecuador",
+      "regions": [
+        "south_america",
+        "latin_america",
+        "city"
+      ]
+    },
+    {
+      "iata": "VVI",
+      "city": "Santa Cruz de la Sierra",
+      "country": "Bolivia",
+      "regions": [
+        "south_america",
+        "latin_america",
+        "city",
+        "warm"
+      ]
+    },
+    {
+      "iata": "ALA",
+      "city": "Almaty",
+      "country": "Kazakhstan",
+      "regions": [
+        "asia",
+        "city"
+      ]
+    },
+    {
+      "iata": "AMM",
+      "city": "Amman",
+      "country": "Jordan",
+      "regions": [
+        "middle_east",
+        "city",
+        "warm"
+      ]
+    },
+    {
+      "iata": "BIA",
+      "city": "Bastia",
+      "country": "France",
+      "regions": [
+        "europe",
+        "warm_europe",
+        "beach",
+        "island"
+      ]
+    },
+    {
+      "iata": "BJV",
+      "city": "Bodrum",
+      "country": "Türkiye",
+      "regions": [
+        "europe",
+        "warm_europe",
+        "beach"
+      ]
+    },
+    {
+      "iata": "BLR",
+      "city": "Bengaluru",
+      "country": "India",
+      "regions": [
+        "asia",
+        "city",
+        "warm"
+      ]
+    },
+    {
+      "iata": "CAI",
+      "city": "Cairo",
+      "country": "Egypt",
+      "regions": [
+        "africa",
+        "middle_east",
+        "city",
+        "warm"
+      ]
+    },
+    {
+      "iata": "CCS",
+      "city": "Caracas",
+      "country": "Venezuela",
+      "regions": [
+        "south_america",
+        "latin_america",
+        "city",
+        "warm"
+      ]
+    },
+    {
+      "iata": "CCU",
+      "city": "Kolkata",
+      "country": "India",
+      "regions": [
+        "asia",
+        "city",
+        "warm"
+      ]
+    },
+    {
+      "iata": "CHC",
+      "city": "Christchurch",
+      "country": "New Zealand",
+      "regions": [
+        "oceania",
+        "city",
+        "island"
+      ]
+    },
+    {
+      "iata": "COK",
+      "city": "Kochi",
+      "country": "India",
+      "regions": [
+        "asia",
+        "beach",
+        "warm"
+      ]
+    },
+    {
+      "iata": "CPT",
+      "city": "Cape Town",
+      "country": "South Africa",
+      "regions": [
+        "africa",
+        "city",
+        "beach"
+      ]
+    },
+    {
+      "iata": "DAC",
+      "city": "Dhaka",
+      "country": "Bangladesh",
+      "regions": [
+        "asia",
+        "city",
+        "warm"
+      ]
+    },
+    {
+      "iata": "DAD",
+      "city": "Da Nang",
+      "country": "Vietnam",
+      "regions": [
+        "asia",
+        "beach",
+        "warm"
+      ]
+    },
+    {
+      "iata": "DPS",
+      "city": "Denpasar Bali",
+      "country": "Indonesia",
+      "regions": [
+        "asia",
+        "beach",
+        "island",
+        "warm"
+      ]
+    },
+    {
+      "iata": "FLL",
+      "city": "Fort Lauderdale",
+      "country": "United States",
+      "regions": [
+        "north_america",
+        "beach",
+        "warm"
+      ]
+    },
+    {
+      "iata": "GDL",
+      "city": "Guadalajara",
+      "country": "Mexico",
+      "regions": [
+        "latin_america",
+        "city",
+        "warm"
+      ]
+    },
+    {
+      "iata": "GYD",
+      "city": "Baku",
+      "country": "Azerbaijan",
+      "regions": [
+        "asia",
+        "city"
+      ]
+    },
+    {
+      "iata": "HAN",
+      "city": "Hanoi",
+      "country": "Vietnam",
+      "regions": [
+        "asia",
+        "city",
+        "warm"
+      ]
+    },
+    {
+      "iata": "HKG",
+      "city": "Hong Kong",
+      "country": "Hong Kong",
+      "regions": [
+        "asia",
+        "city",
+        "warm"
+      ]
+    },
+    {
+      "iata": "HYD",
+      "city": "Hyderabad",
+      "country": "India",
+      "regions": [
+        "asia",
+        "city",
+        "warm"
+      ]
+    },
+    {
+      "iata": "JNB",
+      "city": "Johannesburg",
+      "country": "South Africa",
+      "regions": [
+        "africa",
+        "city"
+      ]
+    },
+    {
+      "iata": "KBV",
+      "city": "Krabi",
+      "country": "Thailand",
+      "regions": [
+        "asia",
+        "beach",
+        "warm"
+      ]
+    },
+    {
+      "iata": "KHI",
+      "city": "Karachi",
+      "country": "Pakistan",
+      "regions": [
+        "asia",
+        "city",
+        "warm"
+      ]
+    },
+    {
+      "iata": "KTM",
+      "city": "Kathmandu",
+      "country": "Nepal",
+      "regions": [
+        "asia",
+        "city"
+      ]
+    },
+    {
+      "iata": "LGK",
+      "city": "Langkawi",
+      "country": "Malaysia",
+      "regions": [
+        "asia",
+        "beach",
+        "island",
+        "warm"
+      ]
+    },
+    {
+      "iata": "MBA",
+      "city": "Mombasa",
+      "country": "Kenya",
+      "regions": [
+        "africa",
+        "beach",
+        "warm"
+      ]
+    },
+    {
+      "iata": "MEX",
+      "city": "Mexico City",
+      "country": "Mexico",
+      "regions": [
+        "latin_america",
+        "city"
+      ]
+    },
+    {
+      "iata": "MRU",
+      "city": "Mauritius",
+      "country": "Mauritius",
+      "regions": [
+        "indian_ocean",
+        "beach",
+        "island",
+        "warm"
+      ]
+    },
+    {
+      "iata": "OOL",
+      "city": "Gold Coast",
+      "country": "Australia",
+      "regions": [
+        "oceania",
+        "australia",
+        "beach",
+        "warm"
+      ]
+    },
+    {
+      "iata": "ORY",
+      "city": "Paris Orly",
+      "country": "France",
+      "regions": [
+        "europe",
+        "city"
+      ]
+    },
+    {
+      "iata": "PEN",
+      "city": "Penang",
+      "country": "Malaysia",
+      "regions": [
+        "asia",
+        "beach",
+        "warm"
+      ]
+    },
+    {
+      "iata": "PNH",
+      "city": "Phnom Penh",
+      "country": "Cambodia",
+      "regions": [
+        "asia",
+        "city",
+        "warm"
+      ]
+    },
+    {
+      "iata": "POP",
+      "city": "Puerto Plata",
+      "country": "Dominican Republic",
+      "regions": [
+        "caribbean",
+        "beach",
+        "warm"
+      ]
+    },
+    {
+      "iata": "PVG",
+      "city": "Shanghai Pudong",
+      "country": "China",
+      "regions": [
+        "asia",
+        "city"
+      ]
+    },
+    {
+      "iata": "RAK",
+      "city": "Marrakesh",
+      "country": "Morocco",
+      "regions": [
+        "africa",
+        "warm",
+        "city"
+      ]
+    },
+    {
+      "iata": "SDQ",
+      "city": "Santo Domingo",
+      "country": "Dominican Republic",
+      "regions": [
+        "caribbean",
+        "city",
+        "warm"
+      ]
+    },
+    {
+      "iata": "SGN",
+      "city": "Ho Chi Minh City",
+      "country": "Vietnam",
+      "regions": [
+        "asia",
+        "city",
+        "warm"
+      ]
+    },
+    {
+      "iata": "TAS",
+      "city": "Tashkent",
+      "country": "Uzbekistan",
+      "regions": [
+        "asia",
+        "city"
+      ]
+    },
+    {
+      "iata": "TBS",
+      "city": "Tbilisi",
+      "country": "Georgia",
+      "regions": [
+        "asia",
+        "city"
+      ]
+    },
+    {
+      "iata": "TPE",
+      "city": "Taipei",
+      "country": "Taiwan",
+      "regions": [
+        "asia",
+        "city",
+        "warm"
+      ]
+    },
+    {
+      "iata": "VCP",
+      "city": "São Paulo Campinas",
+      "country": "Brazil",
+      "regions": [
+        "south_america",
+        "latin_america",
+        "city"
+      ]
+    },
+    {
+      "iata": "ZNZ",
+      "city": "Zanzibar",
+      "country": "Tanzania",
+      "regions": [
+        "africa",
+        "beach",
+        "island",
+        "warm"
+      ]
+    },
+    {
+      "iata": "ACE",
+      "city": "Lanzarote",
+      "country": "Spain",
+      "regions": [
+        "europe",
+        "warm_europe",
+        "beach",
+        "island"
+      ]
+    },
+    {
+      "iata": "ANC",
+      "city": "Anchorage",
+      "country": "United States",
+      "regions": [
+        "north_america",
+        "city"
+      ]
+    },
+    {
+      "iata": "BCI",
+      "city": "Barcaldine",
+      "country": "Australia",
+      "regions": [
+        "oceania",
+        "australia"
+      ]
+    },
+    {
+      "iata": "BDA",
+      "city": "Bermuda",
+      "country": "Bermuda",
+      "regions": [
+        "caribbean",
+        "beach",
+        "island",
+        "warm"
+      ]
+    },
+    {
+      "iata": "BZE",
+      "city": "Belize City",
+      "country": "Belize",
+      "regions": [
+        "latin_america",
+        "caribbean",
+        "beach",
+        "warm"
+      ]
+    },
+    {
+      "iata": "CAY",
+      "city": "Cayenne",
+      "country": "French Guiana",
+      "regions": [
+        "south_america",
+        "latin_america",
+        "warm"
+      ]
+    },
+    {
+      "iata": "CNS",
+      "city": "Cairns",
+      "country": "Australia",
+      "regions": [
+        "oceania",
+        "australia",
+        "beach",
+        "warm"
+      ]
+    },
+    {
+      "iata": "DAR",
+      "city": "Dar es Salaam",
+      "country": "Tanzania",
+      "regions": [
+        "africa",
+        "city",
+        "warm"
+      ]
+    },
+    {
+      "iata": "DUB",
+      "city": "Dublin",
+      "country": "Ireland",
+      "regions": [
+        "europe",
+        "city"
+      ]
+    },
+    {
+      "iata": "EDI",
+      "city": "Edinburgh",
+      "country": "United Kingdom",
+      "regions": [
+        "europe",
+        "city"
+      ]
+    },
+    {
+      "iata": "FAE",
+      "city": "Faroe Islands",
+      "country": "Faroe Islands",
+      "regions": [
+        "europe",
+        "nordic",
+        "island"
+      ]
+    },
+    {
+      "iata": "FDF",
+      "city": "Fort-de-France",
+      "country": "Martinique",
+      "regions": [
+        "caribbean",
+        "beach",
+        "island",
+        "warm"
+      ]
+    },
+    {
+      "iata": "FUE",
+      "city": "Fuerteventura",
+      "country": "Spain",
+      "regions": [
+        "europe",
+        "warm_europe",
+        "beach",
+        "island"
+      ]
+    },
+    {
+      "iata": "GCI",
+      "city": "Guernsey",
+      "country": "Guernsey",
+      "regions": [
+        "europe",
+        "island"
+      ]
+    },
+    {
+      "iata": "GOH",
+      "city": "Nuuk",
+      "country": "Greenland",
+      "regions": [
+        "nordic",
+        "island"
+      ]
+    },
+    {
+      "iata": "GUA",
+      "city": "Guatemala City",
+      "country": "Guatemala",
+      "regions": [
+        "latin_america",
+        "city",
+        "warm"
+      ]
+    },
+    {
+      "iata": "HAV",
+      "city": "Havana",
+      "country": "Cuba",
+      "regions": [
+        "caribbean",
+        "city",
+        "warm"
+      ]
+    },
+    {
+      "iata": "HNL",
+      "city": "Honolulu",
+      "country": "United States",
+      "regions": [
+        "north_america",
+        "oceania",
+        "beach",
+        "island",
+        "warm"
+      ]
+    },
+    {
+      "iata": "JER",
+      "city": "Jersey",
+      "country": "Jersey",
+      "regions": [
+        "europe",
+        "island"
+      ]
+    },
+    {
+      "iata": "JRO",
+      "city": "Kilimanjaro",
+      "country": "Tanzania",
+      "regions": [
+        "africa",
+        "warm"
+      ]
+    },
+    {
+      "iata": "LAS",
+      "city": "Las Vegas",
+      "country": "United States",
+      "regions": [
+        "north_america",
+        "city",
+        "warm"
+      ]
+    },
+    {
+      "iata": "LUX",
+      "city": "Luxembourg",
+      "country": "Luxembourg",
+      "regions": [
+        "europe",
+        "city"
+      ]
+    },
+    {
+      "iata": "MCO",
+      "city": "Orlando",
+      "country": "United States",
+      "regions": [
+        "north_america",
+        "city",
+        "warm"
+      ]
+    },
+    {
+      "iata": "MPL",
+      "city": "Montpellier",
+      "country": "France",
+      "regions": [
+        "europe",
+        "warm_europe",
+        "city"
+      ]
+    },
+    {
+      "iata": "MSP",
+      "city": "Minneapolis",
+      "country": "United States",
+      "regions": [
+        "north_america",
+        "city"
+      ]
+    },
+    {
+      "iata": "NBO",
+      "city": "Nairobi",
+      "country": "Kenya",
+      "regions": [
+        "africa",
+        "city",
+        "warm"
+      ]
+    },
+    {
+      "iata": "NOU",
+      "city": "Nouméa",
+      "country": "New Caledonia",
+      "regions": [
+        "oceania",
+        "beach",
+        "island",
+        "warm"
+      ]
+    },
+    {
+      "iata": "OAK",
+      "city": "Oakland",
+      "country": "United States",
+      "regions": [
+        "north_america",
+        "city"
+      ]
+    },
+    {
+      "iata": "OGG",
+      "city": "Maui",
+      "country": "United States",
+      "regions": [
+        "north_america",
+        "oceania",
+        "beach",
+        "island",
+        "warm"
+      ]
+    },
+    {
+      "iata": "OPO",
+      "city": "Porto",
+      "country": "Portugal",
+      "regions": [
+        "europe",
+        "warm_europe",
+        "city"
+      ]
+    },
+    {
+      "iata": "PAP",
+      "city": "Port-au-Prince",
+      "country": "Haiti",
+      "regions": [
+        "caribbean",
+        "city",
+        "warm"
+      ]
+    },
+    {
+      "iata": "PFO",
+      "city": "Paphos",
+      "country": "Cyprus",
+      "regions": [
+        "europe",
+        "warm_europe",
+        "beach"
+      ]
+    },
+    {
+      "iata": "PPT",
+      "city": "Papeete",
+      "country": "French Polynesia",
+      "regions": [
+        "oceania",
+        "beach",
+        "island",
+        "warm"
+      ]
+    },
+    {
+      "iata": "PTP",
+      "city": "Pointe-à-Pitre",
+      "country": "Guadeloupe",
+      "regions": [
+        "caribbean",
+        "beach",
+        "island",
+        "warm"
+      ]
+    },
+    {
+      "iata": "PVR",
+      "city": "Puerto Vallarta",
+      "country": "Mexico",
+      "regions": [
+        "latin_america",
+        "beach",
+        "warm"
+      ]
+    },
+    {
+      "iata": "RAR",
+      "city": "Rarotonga",
+      "country": "Cook Islands",
+      "regions": [
+        "oceania",
+        "beach",
+        "island",
+        "warm"
+      ]
+    },
+    {
+      "iata": "RUN",
+      "city": "Réunion",
+      "country": "Réunion",
+      "regions": [
+        "indian_ocean",
+        "beach",
+        "island",
+        "warm"
+      ]
+    },
+    {
+      "iata": "SAN",
+      "city": "San Diego",
+      "country": "United States",
+      "regions": [
+        "north_america",
+        "beach",
+        "warm"
+      ]
+    },
+    {
+      "iata": "SJD",
+      "city": "Los Cabos",
+      "country": "Mexico",
+      "regions": [
+        "latin_america",
+        "beach",
+        "warm"
+      ]
+    },
+    {
+      "iata": "SJO",
+      "city": "San José",
+      "country": "Costa Rica",
+      "regions": [
+        "latin_america",
+        "city",
+        "warm"
+      ]
+    },
+    {
+      "iata": "SNA",
+      "city": "Orange County",
+      "country": "United States",
+      "regions": [
+        "north_america",
+        "beach",
+        "warm"
+      ]
+    },
+    {
+      "iata": "SXM",
+      "city": "Saint Martin",
+      "country": "Sint Maarten",
+      "regions": [
+        "caribbean",
+        "beach",
+        "island",
+        "warm"
+      ]
+    },
+    {
+      "iata": "TLS",
+      "city": "Toulouse",
+      "country": "France",
+      "regions": [
+        "europe",
+        "city"
+      ]
+    },
+    {
+      "iata": "TFN",
+      "city": "Tenerife North",
+      "country": "Spain",
+      "regions": [
+        "europe",
+        "warm_europe",
+        "beach",
+        "island"
+      ]
+    },
+    {
+      "iata": "VCE",
+      "city": "Venice",
+      "country": "Italy",
+      "regions": [
+        "europe",
+        "warm_europe",
+        "city"
+      ]
+    },
+    {
+      "iata": "WLG",
+      "city": "Wellington",
+      "country": "New Zealand",
+      "regions": [
+        "oceania",
+        "city",
+        "island"
+      ]
+    },
+    {
+      "iata": "YOW",
+      "city": "Ottawa",
+      "country": "Canada",
+      "regions": [
+        "north_america",
+        "city"
+      ]
+    },
+    {
+      "iata": "YQB",
+      "city": "Quebec City",
+      "country": "Canada",
+      "regions": [
+        "north_america",
+        "city"
+      ]
+    },
+    {
+      "iata": "YVR",
+      "city": "Vancouver",
+      "country": "Canada",
+      "regions": [
+        "north_america",
+        "city"
+      ]
+    },
+    {
+      "iata": "YXE",
+      "city": "Saskatoon",
+      "country": "Canada",
+      "regions": [
+        "north_america",
+        "city"
+      ]
+    },
+    {
+      "iata": "YYC",
+      "city": "Calgary",
+      "country": "Canada",
+      "regions": [
+        "north_america",
+        "city"
+      ]
+    },
+    {
+      "iata": "YWG",
+      "city": "Winnipeg",
+      "country": "Canada",
+      "regions": [
+        "north_america",
+        "city"
+      ]
+    },
+    {
+      "iata": "AAL",
+      "city": "Aalborg",
+      "country": "Denmark",
+      "regions": [
+        "europe",
+        "nordic",
+        "city"
+      ]
+    },
+    {
+      "iata": "ABZ",
+      "city": "Aberdeen",
+      "country": "United Kingdom",
+      "regions": [
+        "europe",
+        "city"
+      ]
+    },
+    {
+      "iata": "AIT",
+      "city": "Aitutaki",
+      "country": "Cook Islands",
+      "regions": [
+        "oceania",
+        "beach",
+        "island",
+        "warm"
+      ]
+    },
+    {
+      "iata": "BIL",
+      "city": "Billund",
+      "country": "Denmark",
+      "regions": [
+        "europe",
+        "nordic",
+        "city"
+      ]
+    },
+    {
+      "iata": "BVC",
+      "city": "Boa Vista",
+      "country": "Cape Verde",
+      "regions": [
+        "africa",
+        "beach",
+        "island",
+        "warm"
+      ]
+    },
+    {
+      "iata": "BWK",
+      "city": "Brač",
+      "country": "Croatia",
+      "regions": [
+        "europe",
+        "warm_europe",
+        "beach",
+        "island"
+      ]
+    },
+    {
+      "iata": "DBV",
+      "city": "Dubrovnik",
+      "country": "Croatia",
+      "regions": [
+        "europe",
+        "warm_europe",
+        "beach",
+        "city"
+      ]
+    },
+    {
+      "iata": "DND",
+      "city": "Dundee",
+      "country": "United Kingdom",
+      "regions": [
+        "europe",
+        "city"
+      ]
+    },
+    {
+      "iata": "DZA",
+      "city": "Dzaoudzi",
+      "country": "Mayotte",
+      "regions": [
+        "indian_ocean",
+        "africa",
+        "beach",
+        "island",
+        "warm"
+      ]
+    },
+    {
+      "iata": "GCM",
+      "city": "Grand Cayman",
+      "country": "Cayman Islands",
+      "regions": [
+        "caribbean",
+        "beach",
+        "island",
+        "warm"
+      ]
+    },
+    {
+      "iata": "GEA",
+      "city": "Nouméa Magenta",
+      "country": "New Caledonia",
+      "regions": [
+        "oceania",
+        "island",
+        "warm"
+      ]
+    },
+    {
+      "iata": "HOR",
+      "city": "Horta",
+      "country": "Portugal",
+      "regions": [
+        "azores",
+        "europe",
+        "island"
+      ]
+    },
+    {
+      "iata": "INV",
+      "city": "Inverness",
+      "country": "United Kingdom",
+      "regions": [
+        "europe",
+        "city"
+      ]
+    },
+    {
+      "iata": "IOM",
+      "city": "Isle of Man",
+      "country": "Isle of Man",
+      "regions": [
+        "europe",
+        "island"
+      ]
+    },
+    {
+      "iata": "JAV",
+      "city": "Ilulissat",
+      "country": "Greenland",
+      "regions": [
+        "nordic",
+        "greenland",
+        "island"
+      ]
+    },
+    {
+      "iata": "JCI",
+      "city": "Kansas City",
+      "country": "United States",
+      "regions": [
+        "north_america",
+        "city"
+      ]
+    },
+    {
+      "iata": "JEG",
+      "city": "Aasiaat",
+      "country": "Greenland",
+      "regions": [
+        "nordic",
+        "greenland",
+        "island"
+      ]
+    },
+    {
+      "iata": "KGI",
+      "city": "Kalgoorlie",
+      "country": "Australia",
+      "regions": [
+        "oceania",
+        "australia"
+      ]
+    },
+    {
+      "iata": "KOI",
+      "city": "Kirkwall",
+      "country": "United Kingdom",
+      "regions": [
+        "europe",
+        "island"
+      ]
+    },
+    {
+      "iata": "KUS",
+      "city": "Kulusuk",
+      "country": "Greenland",
+      "regions": [
+        "nordic",
+        "greenland",
+        "island"
+      ]
+    },
+    {
+      "iata": "LIF",
+      "city": "Lifou",
+      "country": "New Caledonia",
+      "regions": [
+        "oceania",
+        "beach",
+        "island",
+        "warm"
+      ]
+    },
+    {
+      "iata": "LSI",
+      "city": "Shetland",
+      "country": "United Kingdom",
+      "regions": [
+        "europe",
+        "island"
+      ]
+    },
+    {
+      "iata": "MJN",
+      "city": "Mahajanga",
+      "country": "Madagascar",
+      "regions": [
+        "indian_ocean",
+        "africa",
+        "beach",
+        "warm"
+      ]
+    },
+    {
+      "iata": "POM",
+      "city": "Port Moresby",
+      "country": "Papua New Guinea",
+      "regions": [
+        "oceania",
+        "city",
+        "warm"
+      ]
+    },
+    {
+      "iata": "PDL",
+      "city": "Ponta Delgada",
+      "country": "Portugal",
+      "regions": [
+        "azores",
+        "europe",
+        "island"
+      ]
+    },
+    {
+      "iata": "PRG",
+      "city": "Prague",
+      "country": "Czechia",
+      "regions": [
+        "europe",
+        "city"
+      ]
+    },
+    {
+      "iata": "RAI",
+      "city": "Praia",
+      "country": "Cape Verde",
+      "regions": [
+        "africa",
+        "beach",
+        "island",
+        "warm"
+      ]
+    },
+    {
+      "iata": "SID",
+      "city": "Sal",
+      "country": "Cape Verde",
+      "regions": [
+        "africa",
+        "beach",
+        "island",
+        "warm"
+      ]
+    },
+    {
+      "iata": "SFJ",
+      "city": "Kangerlussuaq",
+      "country": "Greenland",
+      "regions": [
+        "nordic",
+        "greenland",
+        "island"
+      ]
+    },
+    {
+      "iata": "SMA",
+      "city": "Santa Maria",
+      "country": "Portugal",
+      "regions": [
+        "azores",
+        "europe",
+        "island"
+      ]
+    },
+    {
+      "iata": "SPU",
+      "city": "Split",
+      "country": "Croatia",
+      "regions": [
+        "europe",
+        "warm_europe",
+        "beach",
+        "city"
+      ]
+    },
+    {
+      "iata": "SYY",
+      "city": "Stornoway",
+      "country": "United Kingdom",
+      "regions": [
+        "europe",
+        "island"
+      ]
+    },
+    {
+      "iata": "TER",
+      "city": "Terceira",
+      "country": "Portugal",
+      "regions": [
+        "azores",
+        "europe",
+        "island"
+      ]
+    },
+    {
+      "iata": "TLV",
+      "city": "Tel Aviv",
+      "country": "Israel",
+      "regions": [
+        "middle_east",
+        "beach",
+        "city",
+        "warm"
+      ]
+    },
+    {
+      "iata": "VXE",
+      "city": "São Vicente",
+      "country": "Cape Verde",
+      "regions": [
+        "africa",
+        "beach",
+        "island",
+        "warm"
+      ]
+    },
+    {
+      "iata": "ZAD",
+      "city": "Zadar",
+      "country": "Croatia",
+      "regions": [
+        "europe",
+        "warm_europe",
+        "beach",
+        "city"
+      ]
+    },
+    {
+      "iata": "ZAG",
+      "city": "Zagreb",
+      "country": "Croatia",
+      "regions": [
+        "europe",
+        "city"
+      ]
+    },
+    {
+      "iata": "AAN",
+      "city": "Al Ain",
+      "country": "United Arab Emirates",
+      "regions": [
+        "middle_east",
+        "city",
+        "warm"
+      ]
+    },
+    {
+      "iata": "BDL",
+      "city": "Hartford",
+      "country": "United States",
+      "regions": [
+        "north_america",
+        "city"
+      ]
+    },
+    {
+      "iata": "BNA",
+      "city": "Nashville",
+      "country": "United States",
+      "regions": [
+        "north_america",
+        "city"
+      ]
+    },
+    {
+      "iata": "BWI",
+      "city": "Baltimore/Washington",
+      "country": "United States",
+      "regions": [
+        "north_america",
+        "city"
+      ]
+    },
+    {
+      "iata": "CHQ",
+      "city": "Chania",
+      "country": "Greece",
+      "regions": [
+        "europe",
+        "warm_europe",
+        "beach",
+        "island"
+      ]
+    },
+    {
+      "iata": "CIT",
+      "city": "Shymkent",
+      "country": "Kazakhstan",
+      "regions": [
+        "asia",
+        "central_asia",
+        "city"
+      ]
+    },
+    {
+      "iata": "EVN",
+      "city": "Yerevan",
+      "country": "Armenia",
+      "regions": [
+        "asia",
+        "city"
+      ]
+    },
+    {
+      "iata": "FNC",
+      "city": "Funchal",
+      "country": "Portugal",
+      "regions": [
+        "europe",
+        "warm_europe",
+        "beach",
+        "island"
+      ]
+    },
+    {
+      "iata": "FUK",
+      "city": "Fukuoka",
+      "country": "Japan",
+      "regions": [
+        "asia",
+        "japan",
+        "city"
+      ]
+    },
+    {
+      "iata": "GOA",
+      "city": "Genoa",
+      "country": "Italy",
+      "regions": [
+        "europe",
+        "warm_europe",
+        "city"
+      ]
+    },
+    {
+      "iata": "GRQ",
+      "city": "Groningen",
+      "country": "Netherlands",
+      "regions": [
+        "europe",
+        "city"
+      ]
+    },
+    {
+      "iata": "HRG",
+      "city": "Hurghada",
+      "country": "Egypt",
+      "regions": [
+        "africa",
+        "beach",
+        "warm"
+      ]
+    },
+    {
+      "iata": "ISB",
+      "city": "Islamabad",
+      "country": "Pakistan",
+      "regions": [
+        "asia",
+        "city"
+      ]
+    },
+    {
+      "iata": "JED",
+      "city": "Jeddah",
+      "country": "Saudi Arabia",
+      "regions": [
+        "middle_east",
+        "city",
+        "warm"
+      ]
+    },
+    {
+      "iata": "KIN",
+      "city": "Kingston",
+      "country": "Jamaica",
+      "regions": [
+        "caribbean",
+        "city",
+        "warm"
+      ]
+    },
+    {
+      "iata": "KGS",
+      "city": "Kos",
+      "country": "Greece",
+      "regions": [
+        "europe",
+        "warm_europe",
+        "beach",
+        "island"
+      ]
+    },
+    {
+      "iata": "KMI",
+      "city": "Miyazaki",
+      "country": "Japan",
+      "regions": [
+        "asia",
+        "japan",
+        "beach"
+      ]
+    },
+    {
+      "iata": "KOA",
+      "city": "Kona",
+      "country": "United States",
+      "regions": [
+        "north_america",
+        "oceania",
+        "beach",
+        "island",
+        "warm"
+      ]
+    },
+    {
+      "iata": "KOJ",
+      "city": "Kagoshima",
+      "country": "Japan",
+      "regions": [
+        "asia",
+        "japan",
+        "city"
+      ]
+    },
+    {
+      "iata": "KRK",
+      "city": "Krakow",
+      "country": "Poland",
+      "regions": [
+        "europe",
+        "city"
+      ]
+    },
+    {
+      "iata": "KVA",
+      "city": "Kavala",
+      "country": "Greece",
+      "regions": [
+        "europe",
+        "warm_europe",
+        "beach"
+      ]
+    },
+    {
+      "iata": "LHE",
+      "city": "Lahore",
+      "country": "Pakistan",
+      "regions": [
+        "asia",
+        "city"
+      ]
+    },
+    {
+      "iata": "LIN",
+      "city": "Milan Linate",
+      "country": "Italy",
+      "regions": [
+        "europe",
+        "warm_europe",
+        "city"
+      ]
+    },
+    {
+      "iata": "LNZ",
+      "city": "Linz",
+      "country": "Austria",
+      "regions": [
+        "europe",
+        "city"
+      ]
+    },
+    {
+      "iata": "MDW",
+      "city": "Chicago Midway",
+      "country": "United States",
+      "regions": [
+        "north_america",
+        "city"
+      ]
+    },
+    {
+      "iata": "MFM",
+      "city": "Macau",
+      "country": "Macau",
+      "regions": [
+        "asia",
+        "city"
+      ]
+    },
+    {
+      "iata": "MSY",
+      "city": "New Orleans",
+      "country": "United States",
+      "regions": [
+        "north_america",
+        "city",
+        "warm"
+      ]
+    },
+    {
+      "iata": "NQZ",
+      "city": "Astana",
+      "country": "Kazakhstan",
+      "regions": [
+        "asia",
+        "central_asia",
+        "city"
+      ]
+    },
+    {
+      "iata": "OKA",
+      "city": "Okinawa",
+      "country": "Japan",
+      "regions": [
+        "asia",
+        "japan",
+        "beach",
+        "island"
+      ]
+    },
+    {
+      "iata": "OLB",
+      "city": "Olbia",
+      "country": "Italy",
+      "regions": [
+        "europe",
+        "warm_europe",
+        "beach",
+        "island"
+      ]
+    },
+    {
+      "iata": "PHX",
+      "city": "Phoenix",
+      "country": "United States",
+      "regions": [
+        "north_america",
+        "city",
+        "warm"
+      ]
+    },
+    {
+      "iata": "PRN",
+      "city": "Pristina",
+      "country": "Kosovo",
+      "regions": [
+        "europe",
+        "city"
+      ]
+    },
+    {
+      "iata": "PVD",
+      "city": "Providence",
+      "country": "United States",
+      "regions": [
+        "north_america",
+        "city"
+      ]
+    },
+    {
+      "iata": "PVK",
+      "city": "Preveza",
+      "country": "Greece",
+      "regions": [
+        "europe",
+        "warm_europe",
+        "beach"
+      ]
+    },
+    {
+      "iata": "RDU",
+      "city": "Raleigh/Durham",
+      "country": "United States",
+      "regions": [
+        "north_america",
+        "city"
+      ]
+    },
+    {
+      "iata": "RHO",
+      "city": "Rhodes",
+      "country": "Greece",
+      "regions": [
+        "europe",
+        "warm_europe",
+        "beach",
+        "island"
+      ]
+    },
+    {
+      "iata": "RIC",
+      "city": "Richmond",
+      "country": "United States",
+      "regions": [
+        "north_america",
+        "city"
+      ]
+    },
+    {
+      "iata": "RMF",
+      "city": "Marsa Alam",
+      "country": "Egypt",
+      "regions": [
+        "africa",
+        "beach",
+        "warm"
+      ]
+    },
+    {
+      "iata": "ROS",
+      "city": "Rosario",
+      "country": "Argentina",
+      "regions": [
+        "south_america",
+        "latin_america",
+        "city"
+      ]
+    },
+    {
+      "iata": "RTM",
+      "city": "Rotterdam",
+      "country": "Netherlands",
+      "regions": [
+        "europe",
+        "city"
+      ]
+    },
+    {
+      "iata": "SCO",
+      "city": "Aktau",
+      "country": "Kazakhstan",
+      "regions": [
+        "asia",
+        "central_asia",
+        "city"
+      ]
+    },
+    {
+      "iata": "SKP",
+      "city": "Skopje",
+      "country": "North Macedonia",
+      "regions": [
+        "europe",
+        "city"
+      ]
+    },
+    {
+      "iata": "SSH",
+      "city": "Sharm el-Sheikh",
+      "country": "Egypt",
+      "regions": [
+        "africa",
+        "beach",
+        "warm"
+      ]
+    },
+    {
+      "iata": "TRN",
+      "city": "Turin",
+      "country": "Italy",
+      "regions": [
+        "europe",
+        "city"
+      ]
+    },
+    {
+      "iata": "TRS",
+      "city": "Trieste",
+      "country": "Italy",
+      "regions": [
+        "europe",
+        "city"
+      ]
+    },
+    {
+      "iata": "VRN",
+      "city": "Verona",
+      "country": "Italy",
+      "regions": [
+        "europe",
+        "warm_europe",
+        "city"
+      ]
+    },
+    {
+      "iata": "WDH",
+      "city": "Windhoek",
+      "country": "Namibia",
+      "regions": [
+        "africa",
+        "city",
+        "warm"
+      ]
+    },
+    {
+      "iata": "XRY",
+      "city": "Jerez de la Frontera",
+      "country": "Spain",
+      "regions": [
+        "europe",
+        "warm_europe",
+        "city"
+      ]
+    },
+    {
+      "iata": "YEG",
+      "city": "Edmonton",
+      "country": "Canada",
+      "regions": [
+        "north_america",
+        "city"
+      ]
+    },
+    {
+      "iata": "YFB",
+      "city": "Iqaluit",
+      "country": "Canada",
+      "regions": [
+        "north_america",
+        "arctic",
+        "city"
+      ]
+    },
+    {
+      "iata": "YGL",
+      "city": "La Grande",
+      "country": "Canada",
+      "regions": [
+        "north_america",
+        "arctic"
+      ]
+    },
+    {
+      "iata": "YRT",
+      "city": "Rankin Inlet",
+      "country": "Canada",
+      "regions": [
+        "north_america",
+        "arctic"
+      ]
+    },
+    {
+      "iata": "YVP",
+      "city": "Kuujjuaq",
+      "country": "Canada",
+      "regions": [
+        "north_america",
+        "arctic"
+      ]
+    },
+    {
+      "iata": "YZF",
+      "city": "Yellowknife",
+      "country": "Canada",
+      "regions": [
+        "north_america",
+        "arctic",
+        "city"
+      ]
+    },
+    {
+      "iata": "AMS",
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "regions": [
+        "europe",
+        "city"
+      ]
+    },
+    {
+      "iata": "ARN",
+      "city": "Stockholm Arlanda",
+      "country": "Sweden",
+      "regions": [
+        "europe",
+        "nordic",
+        "city"
+      ]
+    },
+    {
+      "iata": "BER",
+      "city": "Berlin",
+      "country": "Germany",
+      "regions": [
+        "europe",
+        "city"
+      ]
+    },
+    {
+      "iata": "BGO",
+      "city": "Bergen",
+      "country": "Norway",
+      "regions": [
+        "europe",
+        "nordic",
+        "city"
+      ]
+    },
+    {
+      "iata": "BLQ",
+      "city": "Bologna",
+      "country": "Italy",
+      "regions": [
+        "europe",
+        "warm_europe",
+        "city"
+      ]
+    },
+    {
+      "iata": "BRE",
+      "city": "Bremen",
+      "country": "Germany",
+      "regions": [
+        "europe",
+        "city"
+      ]
+    },
+    {
+      "iata": "BRI",
+      "city": "Bari",
+      "country": "Italy",
+      "regions": [
+        "europe",
+        "warm_europe",
+        "city",
+        "beach"
+      ]
+    },
+    {
+      "iata": "BSL",
+      "city": "Basel",
+      "country": "Switzerland",
+      "regions": [
+        "europe",
+        "city"
+      ]
+    },
+    {
+      "iata": "CDG",
+      "city": "Paris Charles de Gaulle",
+      "country": "France",
+      "regions": [
+        "europe",
+        "city"
+      ]
+    },
+    {
+      "iata": "CFU",
+      "city": "Corfu",
+      "country": "Greece",
+      "regions": [
+        "europe",
+        "warm_europe",
+        "beach",
+        "island"
+      ]
+    },
+    {
+      "iata": "CGN",
+      "city": "Cologne/Bonn",
+      "country": "Germany",
+      "regions": [
+        "europe",
+        "city"
+      ]
+    },
+    {
+      "iata": "CHS",
+      "city": "Charleston",
+      "country": "United States",
+      "regions": [
+        "north_america",
+        "city",
+        "warm"
+      ]
+    },
+    {
+      "iata": "CPH",
+      "city": "Copenhagen",
+      "country": "Denmark",
+      "regions": [
+        "europe",
+        "nordic",
+        "city"
+      ]
+    },
+    {
+      "iata": "CTS",
+      "city": "Sapporo",
+      "country": "Japan",
+      "regions": [
+        "asia",
+        "japan",
+        "city"
+      ]
+    },
+    {
+      "iata": "DEN",
+      "city": "Denver",
+      "country": "United States",
+      "regions": [
+        "north_america",
+        "city"
+      ]
+    },
+    {
+      "iata": "DOH",
+      "city": "Doha",
+      "country": "Qatar",
+      "regions": [
+        "middle_east",
+        "city",
+        "warm"
+      ]
+    },
+    {
+      "iata": "DXB",
+      "city": "Dubai",
+      "country": "United Arab Emirates",
+      "regions": [
+        "middle_east",
+        "city",
+        "warm"
+      ]
+    },
+    {
+      "iata": "FLR",
+      "city": "Florence",
+      "country": "Italy",
+      "regions": [
+        "europe",
+        "warm_europe",
+        "city"
+      ]
+    },
+    {
+      "iata": "FRA",
+      "city": "Frankfurt",
+      "country": "Germany",
+      "regions": [
+        "europe",
+        "city"
+      ]
+    },
+    {
+      "iata": "GRZ",
+      "city": "Graz",
+      "country": "Austria",
+      "regions": [
+        "europe",
+        "city"
+      ]
+    },
+    {
+      "iata": "HAJ",
+      "city": "Hannover",
+      "country": "Germany",
+      "regions": [
+        "europe",
+        "city"
+      ]
+    },
+    {
+      "iata": "HEL",
+      "city": "Helsinki",
+      "country": "Finland",
+      "regions": [
+        "europe",
+        "nordic",
+        "city"
+      ]
+    },
+    {
+      "iata": "HOU",
+      "city": "Houston Hobby",
+      "country": "United States",
+      "regions": [
+        "north_america",
+        "city",
+        "warm"
+      ]
+    },
+    {
+      "iata": "LEJ",
+      "city": "Leipzig/Halle",
+      "country": "Germany",
+      "regions": [
+        "europe",
+        "city"
+      ]
+    },
+    {
+      "iata": "LHR",
+      "city": "London Heathrow",
+      "country": "United Kingdom",
+      "regions": [
+        "europe",
+        "city"
+      ]
+    },
+    {
+      "iata": "MUC",
+      "city": "Munich",
+      "country": "Germany",
+      "regions": [
+        "europe",
+        "city"
+      ]
+    },
+    {
+      "iata": "NGO",
+      "city": "Nagoya",
+      "country": "Japan",
+      "regions": [
+        "asia",
+        "japan",
+        "city"
+      ]
+    },
+    {
+      "iata": "NUE",
+      "city": "Nuremberg",
+      "country": "Germany",
+      "regions": [
+        "europe",
+        "city"
+      ]
+    },
+    {
+      "iata": "OSL",
+      "city": "Oslo",
+      "country": "Norway",
+      "regions": [
+        "europe",
+        "nordic",
+        "city"
+      ]
+    },
+    {
+      "iata": "YEV",
+      "city": "Inuvik",
+      "country": "Canada",
+      "regions": [
+        "north_america",
+        "arctic"
+      ]
+    },
+    {
+      "iata": "YLW",
+      "city": "Kelowna",
+      "country": "Canada",
+      "regions": [
+        "north_america",
+        "city"
+      ]
+    },
+    {
+      "iata": "YXS",
+      "city": "Prince George",
+      "country": "Canada",
+      "regions": [
+        "north_america",
+        "city"
+      ]
+    },
+    {
+      "iata": "LYS",
+      "city": "Lyon",
+      "country": "France",
+      "regions": [
+        "europe",
+        "city"
+      ]
+    },
+    {
+      "iata": "STR",
+      "city": "Stuttgart",
+      "country": "Germany",
+      "regions": [
+        "europe",
+        "city"
+      ]
+    },
+    {
+      "iata": "RIX",
+      "city": "Riga",
+      "country": "Latvia",
+      "regions": [
+        "europe",
+        "city"
+      ]
+    },
+    {
+      "iata": "TIV",
+      "city": "Tivat",
+      "country": "Montenegro",
+      "regions": [
+        "europe",
+        "warm_europe",
+        "beach"
+      ]
+    }
+  ]
+}

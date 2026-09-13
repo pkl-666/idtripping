@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ID Travel Tips</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="topbar" aria-label="Search controls">
+        <div>
+          <p class="eyebrow">ID Travel Tips</p>
+          <h1>Find realistic non-rev trip ideas</h1>
+        </div>
+        <div class="summary-strip" id="summaryStrip"></div>
+      </section>
+
+      <section class="workspace">
+        <aside class="filters" aria-label="Trip filters">
+          <label>
+            From
+            <select id="origin">
+              <option value="OSL">Oslo (OSL)</option>
+              <option value="BGO">Bergen (BGO)</option>
+              <option value="ARN">Stockholm Arlanda (ARN)</option>
+              <option value="CPH">Copenhagen (CPH)</option>
+              <option value="AGP">Malaga (AGP)</option>
+              <option value="ALC">Alicante (ALC)</option>
+              <option value="RIX">Riga (RIX)</option>
+              <option value="PMI">Palma de Mallorca (PMI)</option>
+              <option value="LPA">Gran Canaria (LPA)</option>
+            </select>
+          </label>
+
+          <label>
+            Custom from IATA
+            <input id="customOrigin" maxlength="3" placeholder="Optional, e.g. RIX">
+          </label>
+
+          <label>
+            To IATA
+            <input id="exactDestination" maxlength="3" placeholder="Optional exact route, e.g. ALC">
+          </label>
+
+          <label>
+            Destination idea
+            <span class="autocomplete">
+              <input id="destinationQuery" placeholder="Maldives, Malé, MLE, beach..." autocomplete="off" role="combobox" aria-expanded="false" aria-controls="destinationSuggestions">
+              <div id="destinationSuggestions" class="suggestions" role="listbox"></div>
+            </span>
+          </label>
+
+          <label>
+            Month
+            <select id="monthPreset">
+              <option value="">Custom dates</option>
+              <option value="2027-02-01|2027-02-28">February 2027</option>
+              <option value="2026-11-01|2026-11-30">November 2026</option>
+              <option value="2026-12-01|2026-12-31">December 2026</option>
+              <option value="2027-01-01|2027-01-31">January 2027</option>
+              <option value="2027-03-01|2027-03-31">March 2027</option>
+            </select>
+          </label>
+
+          <div class="date-grid">
+            <label>
+              Start
+              <input id="startDate" type="date" value="2026-11-04">
+            </label>
+            <label>
+              End
+              <input id="endDate" type="date" value="2026-11-12">
+            </label>
+          </div>
+
+          <label>
+            Region
+            <select id="region">
+              <option value="warm_europe">Warm Europe</option>
+              <option value="asia">Asia</option>
+              <option value="central_asia">Central Asia</option>
+              <option value="north_america">North America</option>
+              <option value="south_america">South America</option>
+              <option value="latin_america">Latin America</option>
+              <option value="middle_east">Middle East</option>
+              <option value="africa">Africa</option>
+              <option value="oceania">Oceania</option>
+              <option value="australia">Australia</option>
+              <option value="japan">Japan</option>
+              <option value="caribbean">Caribbean</option>
+              <option value="indian_ocean">Indian Ocean</option>
+              <option value="azores">Azores</option>
+              <option value="greenland">Greenland</option>
+              <option value="arctic">Arctic</option>
+              <option value="nordic">Nordic</option>
+              <option value="beach">Beach</option>
+              <option value="island">Island</option>
+              <option value="city">City</option>
+              <option value="europe">Europe</option>
+              <option value="all">All</option>
+            </select>
+          </label>
+
+          <label>
+            Max one-way travel time
+            <input id="maxHours" type="range" min="3" max="30" step="1" value="24">
+            <span class="range-value"><span id="maxHoursLabel">24</span> hours</span>
+          </label>
+
+          <label>
+            Max stops
+            <select id="maxStops">
+              <option value="0">Direct only</option>
+              <option value="1" selected>Up to 1 stop</option>
+              <option value="2">Up to 2 stops</option>
+            </select>
+          </label>
+
+          <label>
+            Sort
+            <select id="sortMode">
+              <option value="recommended">Recommended</option>
+              <option value="route">Best route score</option>
+              <option value="duration">Shortest</option>
+              <option value="status">Best saved load note</option>
+            </select>
+          </label>
+
+          <div class="filter-actions">
+            <button id="resetButton" type="button">Reset</button>
+            <button id="exportButton" type="button">Export checks</button>
+            <button id="importButton" type="button">Import checks</button>
+            <button id="routesButton" type="button">Routes</button>
+            <button id="reviewButton" type="button">Review routes</button>
+            <input id="importFile" type="file" accept="application/json,.json" hidden>
+          </div>
+        </aside>
+
+        <section class="results-area" aria-live="polite">
+          <div class="section-head">
+            <div>
+              <h2>Trip candidates</h2>
+              <p id="resultMeta">Loading local data...</p>
+            </div>
+            <div class="view-toggle" aria-label="Result view">
+              <button id="cardsViewButton" class="active" type="button">Cards</button>
+              <button id="mapViewButton" type="button">Map</button>
+            </div>
+            <div class="legend" aria-label="9 pax status legend">
+              <span><i class="dot outlook-green"></i>Green</span>
+              <span><i class="dot outlook-yellow"></i>Yellow</span>
+              <span><i class="dot outlook-red"></i>Red</span>
+              <span><i class="dot good"></i>9+</span>
+              <span><i class="dot some"></i>Some</span>
+              <span><i class="dot none"></i>None</span>
+              <span><i class="dot unknown"></i>Unknown</span>
+            </div>
+          </div>
+          <div id="mapPanel" class="map-panel" hidden>
+            <div class="map-toolbar">
+              <div>
+                <strong>Reachable map</strong>
+                <span id="mapMeta">Route ideas, not live schedules</span>
+              </div>
+              <button id="resetMapButton" type="button">World</button>
+            </div>
+            <div id="worldMap" class="world-map" aria-label="Reachable destinations map"></div>
+          </div>
+          <div id="results" class="results"></div>
+        </section>
+      </section>
+    </main>
+
+    <div id="mapSheet" class="map-sheet" hidden>
+      <div class="map-sheet-handle"></div>
+      <div id="mapSheetContent"></div>
+    </div>
+
+    <dialog id="checkDialog">
+      <form method="dialog" class="dialog-body">
+        <div>
+          <p class="eyebrow">Manual 9-pax check</p>
+          <h2 id="dialogTitle">Record result</h2>
+          <p id="dialogRoute" class="muted"></p>
+        </div>
+
+        <label>
+          Status
+          <select id="checkStatus">
+            <option value="9plus">9+ sellable</option>
+            <option value="some">Some, but not 9</option>
+            <option value="none">Not sellable / not shown</option>
+            <option value="unknown">Inconclusive</option>
+          </select>
+        </label>
+
+        <label>
+          Notes
+          <textarea id="checkNotes" rows="3" placeholder="Optional: website, fare seen, reason, confidence"></textarea>
+        </label>
+
+        <div class="dialog-actions">
+          <button value="cancel" type="submit">Cancel</button>
+          <button id="saveCheckButton" value="default" type="submit">Save</button>
+        </div>
+      </form>
+    </dialog>
+
+    <dialog id="routesDialog">
+      <form method="dialog" class="dialog-body route-dialog">
+        <div>
+          <p class="eyebrow">Route map</p>
+          <h2>Manage starter routes</h2>
+          <p class="muted">Custom routes are saved in this browser and included in trip candidates.</p>
+        </div>
+
+        <div class="route-form-grid">
+          <label>
+            Origin
+            <input id="routeOrigin" maxlength="3" placeholder="OSL">
+          </label>
+          <label>
+            Destination
+            <input id="routeDestination" maxlength="3" placeholder="AGP">
+          </label>
+          <label>
+            Airline
+            <input id="routeAirline" maxlength="3" placeholder="DY">
+          </label>
+          <label>
+            Minutes
+            <input id="routeDuration" type="number" min="20" max="900" step="5" placeholder="245">
+          </label>
+        </div>
+
+        <div class="dialog-actions split-actions">
+          <button id="exportRoutesButton" type="button">Export routes</button>
+          <span></span>
+          <button value="cancel" type="submit">Close</button>
+          <button id="addRouteButton" value="default" type="submit">Add route</button>
+        </div>
+
+        <div id="routeList" class="route-list"></div>
+      </form>
+    </dialog>
+
+    <dialog id="reviewDialog">
+      <form method="dialog" class="dialog-body route-dialog">
+        <div>
+          <p class="eyebrow">Route freshness</p>
+          <h2>Routes needing review</h2>
+          <p class="muted">Freshness means the route source was checked recently. It does not guarantee exact flight dates.</p>
+        </div>
+        <div id="reviewList" class="route-list"></div>
+        <div class="dialog-actions">
+          <button value="cancel" type="submit">Close</button>
+        </div>
+      </form>
+    </dialog>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
