@@ -115,6 +115,12 @@ python3 manual_check.py add --date 2026-11-04 --origin OSL --destination AGP --a
 
 The browser prototype lives in `outputs/id-travel-app`.
 
+GitHub Pages entry point:
+
+```text
+https://pkl-666.github.io/idtripping/
+```
+
 If the local server is running, open:
 
 ```text
